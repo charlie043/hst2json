@@ -21,7 +21,7 @@ const readOldHistory = (buf) => {
 
 const readHeader = (buf) => {
   const header = {}
-  const bufOffset = 0
+  let bufOffset = 0
 
   header.version = buf.readInt32LE(bufOffset)
   bufOffset += 4
