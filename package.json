@@ -1,17 +1,35 @@
 {
   "name": "hst2json",
-  "version": "0.1.2",
+  "version": "0.3.0",
   "description": "convert .hst to json",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/charlie043/hst2json.git"
+  },
+  "author": {
+    "name": "charlie043",
+    "email": "h.uematsu1015@gmail.com"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/acharlie043/hst2json.git"
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.18"
   },
-  "author": "charlie043",
-  "license": "MIT",
-  "dependencies": {
-  }
+  "keywords": [
+    "MT4",
+    "MQL4",
+    "MT5",
+    "MQL5",
+    "hst",
+    "history",
+    "trade",
+    "chart"
+  ]
 }
