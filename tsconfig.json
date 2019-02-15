@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
+    "outDir": "dist",
     "target": "es5",
     "module": "commonjs",
-    "sourceMap": true
-  }
+    "baseUrl": "./src",
+    "sourceMap": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "strict": true
+  },
+  "include": ["src/**/*"]
 }

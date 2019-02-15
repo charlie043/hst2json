@@ -1,6 +1,6 @@
 {
   "name": "hst2json",
-  "version": "0.3.0",
+  "version": "0.4.4",
   "description": "convert .hst to json",
   "license": "MIT",
   "engines": {
@@ -14,13 +14,27 @@
     "name": "charlie043",
     "email": "h.uematsu1015@gmail.com"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "",
+    "build": "npx tsc",
+    "publish": "yarn publish"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^10.12.18"
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.12.26",
+    "@types/power-assert": "^1.5.0",
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.1",
+    "prettier": "^1.16.4",
+    "prettier-tslint": "^0.4.2",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.3.3"
   },
   "keywords": [
     "MT4",

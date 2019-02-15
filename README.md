@@ -1,15 +1,15 @@
 # hst2json
 
-convert MT4 `.hst` to json object.
-
-* only support hst format version lower 401
+convert MT4, MT5 time-series history file(`.hst`) to json.
 
 ## install
+
 ```
-npm install hst2json
+npm install --save hst2json
 ```
 
 ## Usage
+
 ```javascript
 const fs = require('fs')
 const hst2json = require('hst2json')
